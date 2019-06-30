@@ -10,17 +10,17 @@
 <body>
 
 <div class="mx-auto" style="width: 300px;">
-    <form action="" method="POST">
+    <form action="process.php" method="POST">
         <div class="form-group">
-        <label for="Title">Title</label>
-        <input type="text" id="Title" class="form-control" placeholder=" Enter a title">
+        <label for="titleInput">Title</label>
+        <input type="text" id="titleInput" name="title" class="form-control" placeholder=" Enter a title">
         </div>
         <div class="form-group">
-        <label for="content">Content</label>
-        <input type="text" id="content" class="form-control" rows="3" placeholder="Write the content...">
+        <label for="contentInput">Content</label>
+        <input type="text" id="contentInput" name="content" class="form-control" rows="3" placeholder="Write the content...">
         </div>
         <div class="form-group">
-        <button type="submit" class="btn btn-primary">Create</button>
+        <button type="submit" name="create" class="btn btn-primary">Create</button>
         </div>
     </form>
 </div>
